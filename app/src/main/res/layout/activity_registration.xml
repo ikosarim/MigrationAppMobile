@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.RegistrationActivity">
+
+        <TextView
+            android:id="@+id/registrationPhoneTextView"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text="@string/registration_phone_text"/>
+
+        <EditText
+            android:id="@+id/registrationPhoneEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/registrationNameTextView"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text="@string/registration_name_text"
+            android:layout_marginTop="150dp"/>
+
+        <EditText
+            android:id="@+id/registrationNameEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="200dp"/>
+
+        <TextView
+            android:id="@+id/registrationNationalityTextView"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text="@string/registration_nationality_text"
+            android:layout_marginTop="250dp"/>
+
+        <EditText
+            android:id="@+id/registrationNationalityEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="300dp"/>
+
+        <TextView
+            android:id="@+id/registrationBirthDateTextView"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text="@string/registration_birth_date_text"
+            android:layout_marginTop="350dp"/>
+
+        <TextView
+            android:id="@+id/registrationBirthDateDatePicker"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="400dp"
+            android:gravity="center"
+            android:text="@string/input_birth_date"
+            />
+
+        <TextView
+            android:id="@+id/registrationPasswordTextView"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:text="@string/password_text"
+            android:layout_marginTop="450dp"/>
+
+        <EditText
+            android:id="@+id/registrationPasswordEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="34dp"
+            android:layout_marginTop="500dp"/>
+
+        <Button
+            android:id="@+id/registration_button"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/registration_button"
+            android:layout_marginTop="600dp"/>
+
+    </FrameLayout>
+</ScrollView>

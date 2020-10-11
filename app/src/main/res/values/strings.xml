@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MigrationApp</string>
+    <string name="main_registration_button_text">Регистрация</string>
+    <string name="main_login_button_text">Войти</string>
+    <string name="registration_phone_text">Мой номер телефона:</string>
+    <string name="registration_name_text">Мое имя:</string>
+    <string name="registration_nationality_text">Мой флаг:</string>
+    <string name="registration_birth_date_text">Дата рождения:</string>
+    <string name="password_text">Пароль:</string>
+    <string name="registration_button">Зарегестрироваться</string>
+    <string name="input_birth_date">Нажмите для выбора даты</string>
+    <string name="login_login_text">Логин:</string>
+    <string name="login_button">Войти</string>
+
+    <string name="server_url">http://192.168.1.7:8080</string>
+</resources>

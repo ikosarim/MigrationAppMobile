@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/main_view_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/migrant_logo"
+        android:layout_weight="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_registration_button"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/main_registration_button_text"
+        android:layout_weight="1.5"
+        app:layout_constraintBottom_toTopOf="@+id/main_login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="400dp"
+        android:text="@string/main_login_button_text"
+        android:layout_weight="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_registration_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
